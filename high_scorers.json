@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Gaurav",
+    "age": 21,
+    "city": "Kathmandu",
+    "score": 88
+  },
+  {
+    "name": "Alice",
+    "age": 22,
+    "city": "Pokhara",
+    "score": 92
+  },
+  {
+    "name": "Diana",
+    "age": 23,
+    "city": "Butwal",
+    "score": 95
+  }
+]

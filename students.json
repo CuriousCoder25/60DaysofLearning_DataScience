@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Gaurav",
+    "age": 21,
+    "city": "Kathmandu",
+    "score": 88
+  },
+  {
+    "name": "Alice",
+    "age": 22,
+    "city": "Pokhara",
+    "score": 92
+  },
+  {
+    "name": "Bob",
+    "age": 20,
+    "city": "Dhangadhi",
+    "score": 75
+  },
+  {
+    "name": "Diana",
+    "age": 23,
+    "city": "Butwal",
+    "score": 95
+  },
+  {
+    "name": "Eve",
+    "age": 21,
+    "city": "Biratnagar",
+    "score": 81
+  }
+]
