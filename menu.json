@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Truffle Burger",
+    "category": "Main",
+    "price": 16.99,
+    "popularity_score": 94.5,
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "category": "Main",
+    "price": 12.50,
+    "popularity_score": 88.2,
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "name": "Sweet Potato Fries",
+    "category": "Side",
+    "price": 5.50,
+    "popularity_score": 75.0,
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "name": "Matcha Cheesecake",
+    "category": "Dessert",
+    "price": 7.99,
+    "popularity_score": 91.1,
+    "in_stock": false
+  },
+  {
+    "id": 5,
+    "name": "Avocado Toast",
+    "category": "Main",
+    "price": -11.00,
+    "popularity_score": 82.3,
+    "in_stock": true
+  },
+  {
+    "id": 6,
+    "name": "Garlic Bread",
+    "category": "Side",
+    "price": 4.25,
+    "popularity_score": 105.0,
+    "in_stock": true
+  }
+]

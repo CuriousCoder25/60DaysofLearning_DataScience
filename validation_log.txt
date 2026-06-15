@@ -1,0 +1,17 @@
+=======================================================
+  CLI Menu Data Logger
+  Run at : 2026-06-15 23:57:01
+=======================================================
+
+  Total loaded  : 6
+  Clean         : 4
+  Flagged       : 2
+  After filter  : 2
+
+--- Flagged Items ---
+  [FLAGGED] Avocado Toast -> invalid price (-11.0)
+  [FLAGGED] Garlic Bread -> popularity out of range (105.0)
+
+--- Filtered Results ---
+  Truffle Burger         | $16.99 | score: 94.5 | IN STOCK
+  Margherita Pizza       | $12.50 | score: 88.2 | IN STOCK
