@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 students = pd.DataFrame({
-    "name":   ["Gaurav", "Alice", "Bob", "Diana", "Eve", "Frank", "Grace", "Henry"],
+    "name":   ["Gaurav", "Alice", "Bob", "Diana", "Evren", "Frank", "Grace", "Henry"],
     "city":   ["Kathmandu", "Pokhara", "Kathmandu", "Butwal", "Pokhara", "Butwal", "Kathmandu", "Pokhara"],
     "grade":  ["A", "A", "B", "A", "C", "B", "A", "B"],
     "score":  [88, 92, 75, 95, 81, 70, 90, 78],
