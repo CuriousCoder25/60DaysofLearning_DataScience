@@ -9,7 +9,7 @@ students = pd.DataFrame({
 })
 print(f"DataFrame:\n{students}\n")
 
-# .apply() is the Pandas version of Day 10's map() and lambda —
+# .apply() is the Pandas version of Day 10's map() and lambda
 # same idea, apply a function to every element, but now on a
 # DataFrame column (a Series) instead of a plain Python list.
 # WHY THIS MATTERS: when vectorized operations aren't enough and
