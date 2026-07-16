@@ -81,7 +81,7 @@ ax_trend.set_ylabel("Average Score")
 ax_trend.set_ylim(60, 100)
 ax_trend.grid(True, alpha=0.3)
 
-# ---- PANEL 3: bar chart — score per student (middle left, spans 2 cols) ----
+# ---- PANEL 3: bar chart : score per student (middle left, spans 2 cols) ----
 ax_bar = fig.add_subplot(gs[1, :2])   # spans columns 0 and 1
 
 colors = [city_colors[c] for c in students["city"]]
@@ -97,7 +97,7 @@ ax_bar.legend(fontsize=9)
 ax_bar.grid(axis="y", alpha=0.3)
 ax_bar.tick_params(axis="x", rotation=30)
 
-# ---- PANEL 4: box plot — distribution per grade (middle right) ----
+# ---- PANEL 4: box plot : distribution per grade (middle right) ----
 ax_box = fig.add_subplot(gs[1, 2])
 
 sns.boxplot(data=students, x="grade", y="score",
@@ -106,7 +106,7 @@ ax_box.set_title("Score Distribution by Grade", fontweight="bold")
 ax_box.set_xlabel("Grade")
 ax_box.set_ylabel("Score")
 
-# ---- PANEL 5: scatter plot — study hours vs score (bottom left) ----
+# ---- PANEL 5: scatter plot : study hours vs score (bottom left) ----
 ax_scatter = fig.add_subplot(gs[2, 0])
 
 for city, group in students.groupby("city"):
@@ -123,7 +123,7 @@ ax_scatter.set_xlabel("Study Hours")
 ax_scatter.set_ylabel("Score")
 ax_scatter.legend(fontsize=7, title="City", title_fontsize=8)
 
-# ---- PANEL 6: heatmap — correlation matrix (bottom middle) ----
+# ---- PANEL 6: heatmap : correlation matrix (bottom middle) ----
 ax_heat = fig.add_subplot(gs[2, 1])
 
 corr = students[["score", "study_hours", "sleep_hours",
@@ -135,7 +135,7 @@ sns.heatmap(corr, mask=mask, annot=True, fmt=".2f",
     annot_kws={"size": 8})
 ax_heat.set_title("Correlation Matrix", fontweight="bold")
 
-# ---- PANEL 7: horizontal bar — city average score (bottom right) ----
+# ---- PANEL 7: horizontal bar : city average score (bottom right) ----
 ax_city = fig.add_subplot(gs[2, 2])
 
 city_avg = students.groupby("city")["score"].mean().sort_values()
