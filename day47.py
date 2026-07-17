@@ -130,6 +130,6 @@ print(f"  Min      : {scores.min()}")
 print(f"  Max      : {scores.max()}")
 print(f"  Range    : {scores.max() - scores.min()}")
 print(f"  r (study vs score) : {r_numpy:.4f}")
-
+# results
 plt.ioff()
-plt.show()
+plt.show() 
